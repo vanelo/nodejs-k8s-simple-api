@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hash-api
-        image: hash-api
+        image: node-hash
         imagePullPolicy: IfNotPresent
         env:
           - name:  PORT
